@@ -1,8 +1,6 @@
-abstract class Person{
+abstract interface Person{
 
 	public abstract void carYouDrive();
 
-	public void job(){
-		System.out.println("unemployed");
-	}
+	public void job();
 }
